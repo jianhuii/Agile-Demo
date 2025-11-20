@@ -20,6 +20,8 @@ where = ["src"]
 
 [project.optional-dependencies]
 dev = [
+  "uvicorn",
+  "fastapi",
   "pytest",
   "pytest-cov",
   "hypothesis",
